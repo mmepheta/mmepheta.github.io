@@ -1,0 +1,33 @@
+<section id="videos" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Músicas</h2>
+        <h3 class="section-subheading text-muted">Cante e reze conosco algumas de nossas canções</h3>
+      </div>
+    </div>
+    <div class="row">
+      {% for post in site.posts %}
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+          <!--div class="portfolio-hover">
+          <div class="portfolio-hover-content">
+          <i class="fa fa-plus fa-3x"></i>
+        </div>
+      </div-->
+      <img src="img/capas-videos/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+    </a>
+    <div class="portfolio-caption">
+      <h4>{{ post.title }}</h4>
+      <!--p class="text-muted">{{ post.subtitle }}</p-->
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<div class="row">
+  <div class="col-lg-8 col-lg-offset-2 text-center">
+    <p class="large text-muted">Quer ver mais ? Venha conferir no <a href="{{site.youtube}}"> nosso canal no Youtube</a> !</p>
+  </div>
+</div>
+</div>
+</section>

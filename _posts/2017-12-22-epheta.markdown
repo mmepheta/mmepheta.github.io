@@ -1,0 +1,11 @@
+---
+title: Epheta
+layout: default
+modal-id: 2
+video-id: jhQxRoRg1Ck
+video-start: 456
+video-end: 853
+data-gravacao: Dezembro de 2017
+thumbnail: epheta.jpg
+descricao: Música que dá nome ao Ministério, baseada em Marcos 7, 32-37.
+---

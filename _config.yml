@@ -1,0 +1,46 @@
+# url: https://mmepheta.github.io
+# baseurl: /
+
+# configurações básicas do site
+title: Ministério de Música Epheta
+email: epheta@gmail.com
+description: >-
+  Somos o Ministério de Música Epheta.
+  Nossa missão é cantar contigo o Epheta para a entrada de Deus na sua vida.
+
+# membros
+people:
+- name: Robson Bragança
+  pic: 1
+  position: Voz
+  # social:
+  #   - title: twitter
+  #     url: #
+- name: Cícero Adriano
+  pic: 2
+  position: Voz
+- name: Sérgio Goncalves
+  pic: 3
+  position: Violão e Voz
+- name: Marcondes Cunha
+  pic: 4
+  position: Guitarra, Violão e Voz
+- name: Guilherme Bragança
+  pic: 5
+  position: Bateria
+
+# redes sociais
+youtube: https://www.youtube.com/channel/UCPGic-YWZ4hCqidsWRUsu1Q
+social:
+  - title: youtube
+    url: https://www.youtube.com/channel/UCPGic-YWZ4hCqidsWRUsu1Q
+  - title: instagram
+    url: https://www.instagram.com/mmepheta/
+  - title: facebook
+    url: https://www.facebook.com/mmepheta/
+  - title: twitter
+    url: https://twitter.com/epheta
+
+# configurações de build
+markdown: kramdown
+permalink: pretty

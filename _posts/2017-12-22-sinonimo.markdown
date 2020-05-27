@@ -1,0 +1,11 @@
+---
+title: Sinônimo
+layout: default
+modal-id: 5
+video-id: jhQxRoRg1Ck
+video-start: 1076
+video-end: 1277
+data-gravacao: Dezembro de 2017
+thumbnail: sinonimo.jpg
+descricao:
+---
