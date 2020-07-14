@@ -30,16 +30,16 @@ people:
   position: Bateria
 
 # redes sociais
-youtube: https://www.youtube.com/mmepheta?utm_source=sitemme&utm_medium=sitemme&utm_campaign=sitemme
+youtube: /yt
 social:
   - title: youtube
-    url: https://www.youtube.com/mmepheta?utm_source=sitemme&utm_medium=sitemme&utm_campaign=sitemme
+    url: /yt
   - title: instagram
-    url: https://www.instagram.com/mmepheta/
+    url: /insta
   - title: facebook
-    url: https://www.facebook.com/mmepheta/
+    url: /face
   - title: twitter
-    url: https://twitter.com/epheta
+    url: /twitter
 
 # configurações de build
 markdown: kramdown
