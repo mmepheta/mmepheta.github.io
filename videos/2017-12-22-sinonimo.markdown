@@ -1,6 +1,5 @@
 ---
 title: Sinônimo
-layout: default
 modal-id: 5
 video-id: jhQxRoRg1Ck
 video-start: 1076

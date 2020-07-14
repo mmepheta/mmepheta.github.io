@@ -1,6 +1,5 @@
 ---
 title: Teus Átrios
-layout: default
 modal-id: 4
 video-id: VQsjoiq6xyA
 data-gravacao: Dezembro de 2019

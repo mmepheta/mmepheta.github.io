@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header page-scroll">
@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+      <a class="navbar-brand page-scroll" href="/">{{site.title}}</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -18,13 +18,13 @@
           <a href="#page-top"></a>
         </li>
         <li>
-          <a class="page-scroll" href="#sobre">Sobre nós</a>
+          <a class="page-link" href="/#sobre">Sobre nós</a>
         </li>
         <li>
-          <a class="page-scroll" href="#videos">Nosso som</a>
+          <a class="page-link" href="/#videos">Nosso som</a>
         </li>
         <li>
-          <a class="page-scroll" href="#membros">Membros</a>
+          <a class="page-link" href="/#membros">Membros</a>
         </li>
         {% for page in site.pages %}
         {% if page.menulink %}<li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.menulink }}</a></li>{% endif %}
@@ -35,19 +35,3 @@
   </div>
   <!-- /.container-fluid -->
 </nav>
-
-<!-- Header -->
-<header>
-  <div class="container">
-    <div class="intro-text">
-      <div class="intro-lead-in">{{site.description}}</div>
-      <!--div class="intro-heading">Seja bem vindo!</div-->
-      <a href="#sobre" class="page-scroll btn btn-xl">Epheta !</a>
-    </div>
-  </div>
-</header>
-<!--
-{% for page in site.pages %}
-{% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-{% endfor %}
--->

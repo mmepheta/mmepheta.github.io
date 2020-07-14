@@ -1,6 +1,5 @@
 ---
 title: Epheta
-layout: default
 modal-id: 2
 video-id: jhQxRoRg1Ck
 video-start: 456

@@ -1,6 +1,5 @@
 ---
 title: Sopro do Pai
-layout: default
 modal-id: 3
 video-id: jhQxRoRg1Ck
 video-start: 135

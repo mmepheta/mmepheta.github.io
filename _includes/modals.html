@@ -1,5 +1,6 @@
-{% for post in site.posts %}
-<div class="portfolio-modal modal videoModal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+{% for page in site.pages %}
+{% if page.video-id %}
+<div class="portfolio-modal modal videoModal fade" id="portfolioModal{{ page.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
       <div class="lr">
@@ -11,13 +12,13 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
-            <h2>{{ post.title }}</h2>
+            <h2>{{ page.title }}</h2>
             <hr class="star-primary">
-            <iframe width="100%" height="350" src="https://www.youtube.com/embed/{{post.video-id}}?start={{post.video-start}}&end={{post.video-end}}&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>{{ post.descricao }}</p>
+            <iframe width="100%" height="350" src="https://www.youtube.com/embed/{{page.video-id}}?start={{page.video-start}}&end={{page.video-end}}&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>{{ page.descricao }}</p>
             <ul class="list-inline item-details">
               <li>Data da gravação:
-                <strong>{{ post.data-gravacao }}
+                <strong>{{ page.data-gravacao }}
                 </strong>
               </li>
             </ul>
@@ -28,4 +29,5 @@
     </div>
   </div>
 </div>
+{% endif %}
 {% endfor %}

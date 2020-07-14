@@ -1,6 +1,5 @@
 ---
 title: Alimento da Vida
-layout: default
 modal-id: 6
 video-id: jhQxRoRg1Ck
 video-start: 1482
