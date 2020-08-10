@@ -18,13 +18,13 @@
           <a href="#page-top"></a>
         </li>
         <li>
-          <a class="page-scroll" href="#sobre">Sobre nós</a>
-        </li>
-        <li>
           <a class="page-scroll" href="#videos">Nosso som</a>
         </li>
         <li>
           <a class="page-scroll" href="#membros">Membros</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#redes">Redes Sociais</a>
         </li>
         {% for page in site.pages %}
         {% if page.menulink %}<li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.menulink }}</a></li>{% endif %}
@@ -42,7 +42,7 @@
     <div class="intro-text">
       <div class="intro-lead-in">{{site.description}}</div>
       <!--div class="intro-heading">Seja bem vindo!</div-->
-      <a href="#sobre" class="page-scroll btn btn-xl">Epheta !</a>
+      <a href="#videos" class="page-scroll btn btn-xl">Cante com a gente!</a>
     </div>
   </div>
 </header>
