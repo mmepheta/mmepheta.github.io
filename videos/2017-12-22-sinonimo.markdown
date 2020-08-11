@@ -1,6 +1,6 @@
 ---
 title: Sinônimo
-modal-id: 5
+modal-id: Sinonimo
 video-id: jhQxRoRg1Ck
 video-start: 1076
 video-end: 1277
