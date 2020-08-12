@@ -23,9 +23,6 @@
         <li>
           <a class="page-scroll" href="#membros">Membros</a>
         </li>
-        <li>
-          <a class="page-scroll" href="#redes">Redes Sociais</a>
-        </li>
         {% for page in site.pages %}
         {% if page.menulink %}<li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.menulink }}</a></li>{% endif %}
         {% endfor %}
@@ -40,9 +37,23 @@
 <header>
   <div class="container">
     <div class="intro-text">
-      <div class="intro-lead-in">{{site.description}}</div>
+
+
+        <div class="row">
+        <div class="intro-lead-in">{{site.description}}</div>
+        </div>
+        <div class="intro-social-btns">
+            <div class="col">
+              <ul class="list-inline">
+                {% for network in site.social %}
+                <li><a href="{{ network.url }}"><i class="fa fa-3x fa-{{ network.title }}"></i></a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+        </div>
       <!--div class="intro-heading">Seja bem vindo!</div-->
-      <a href="#videos" class="page-scroll btn btn-xl">Cante com a gente!</a>
+      <!--<a href="#videos" class="page-scroll btn btn-xl">Cante com a gente!</a>-->
     </div>
   </div>
 </header>
